@@ -1,16 +1,8 @@
 import streamlit as st
-import tensorflow
-from tensorflow import keras
-from tensorflow.keras import layers
-import matplotlib.pyplot as plt
-import pandas as pd
+import tensorflow as tf
 import numpy as np
-from streamlit_lottie import st_lottie
-import requests
 from scipy.ndimage.interpolation import zoom
-from tensorflow.keras.datasets import mnist
 from streamlit_drawable_canvas import st_canvas
-import os
 #os.system("wget https://github.com/napoles-uach/ML-FCQ/raw/main/Demo/mi_modelo.h5")
 
 def load_lottieurl(url: str):
